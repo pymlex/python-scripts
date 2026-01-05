@@ -1,6 +1,6 @@
 # Utility Python Scripts
 
-<img width="675" height="200" alt="Python_logo_and_wordmark svg" src="https://github.com/user-attachments/assets/a49cea62-1ea1-4aba-bf19-e49ebd0cebe9" />
+<img width="506" height="150" alt="Python_logo_and_wordmark svg" src="https://github.com/user-attachments/assets/a49cea62-1ea1-4aba-bf19-e49ebd0cebe9" />
 
 This repository contains a small collection of Python utilities designed to simplify routine file processing tasks that often arise when working with notebooks, scripts, and datasets. The scripts address common practical issues such as incorrect encodings, GitHub rendering problems for Colab notebooks, and unnecessary embedded images in converted files.
 
