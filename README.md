@@ -6,7 +6,7 @@ This repository contains a small collection of Python utilities designed to simp
 
 ## `notebook_fix.py`
 
-This script cleans Jupyter Notebook (`.ipynb`) files downloaded from Google Colab by removing problematic metadata. In particular, it deletes widget-related metadata that can prevent notebooks from being displayed correctly on GitHub. The script is useful when publishing Colab notebooks to public repositories and ensuring they render without errors. It is a fork of another [project](https://gist.github.com/drscotthawley/e6927f1389f262ecbabfe41d31989e1c) and intends to fix a common [issue](https://github.com/orgs/community/discussions/155944).
+This script cleans Jupyter Notebook (`.ipynb`) files downloaded from Google Colab by removing problematic metadata that prevents notebooks from being displayed correctly on GitHub. It is a fork of another [project](https://gist.github.com/drscotthawley/e6927f1389f262ecbabfe41d31989e1c) and intends to fix a common [issue](https://github.com/orgs/community/discussions/155944).
 
 ## `remove_images.py`
 
