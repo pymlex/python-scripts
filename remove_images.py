@@ -23,9 +23,12 @@ def remove_lines_inplace(path: str, prefix: str = "!["):
             for line in f:
                 if not line.lstrip().startswith(prefix):
                     tmp.write(line)
+                else:
+                    tmp.write('[illustration]\n')
     os.replace(tmp_path, path)
 
     print(f"Removed images from {path}")
 
 if __name__ == "__main__":
     remove_lines_inplace("file_name.py")
+
