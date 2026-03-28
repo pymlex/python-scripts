@@ -25,4 +25,3 @@ def remove_images_from_pdf(input_pdf: str) -> None:
 
 if __name__ == "__main__":
     remove_images_from_pdf("file.pdf")
-```
