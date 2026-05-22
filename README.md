@@ -23,3 +23,9 @@ A simple utility script that recursively traverses a directory tree and prints t
 ## `remove_images_pdf.py`
 
 This script removes all embedded images from a PDF file using PyMuPDF (fitz). It opens the input PDF, iterates through each page to collect image references and deletes them, then saves a new PDF without images — useful for reducing file size or producing a text-only version for natural language datasets creation.
+
+## `convert_ipynb_to_py.py`
+
+This utility converts Jupyter Notebook (`.ipynb`) files into plain Python (`.py`) scripts by extracting only code cells and joining them into a single text file. It is useful when you need a source-only version of a notebook without markdown, outputs, or other notebook-specific structure.
+
+The script scans a directory for `.ipynb` files and writes a corresponding `.py` file for each notebook, making it convenient to keep a clean text representation of notebook code.
